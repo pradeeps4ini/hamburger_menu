@@ -1,0 +1,59 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compative" content="ie=edge" />
+    <title>Responsive progressively enhanced hamburger menu</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link 
+      rel="stylesheet" 
+      href="href=https://unpkg.com/modern-css-reset/dist/reset.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-head" role="banner">
+      <a href="#main-content" class="skip-link">Skip to content</a>
+      <div class="wrapper">
+        <div class="site-head__inner">
+          <a href="/" aria-label="ACME home" class="site-head__brand">
+            <img src="imaegs/logo.svg" alt="ACME logo">
+          </a>
+          <burger-menu max-width="600">
+            <nav class="navigation" aria-label="primary">
+              <ul role="list"> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Your account</a></li>
+              </ul>
+            </nav>
+          </burger-menu>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1" class="wrapper">
+      <article class="[ post ] [ flow ]">
+        <h1>A responsive, progressively enhanced burger menu</h1>
+        <p>
+          Burger menus are a relic of responsive design that no matter what your opinion of them is, they continue to be a dominant design pattern. They're very good at preserving often-limited horizontal space, but they also, more often than not, are built in a user-hostile, non-accessible fashion.
+        </p>
+        <p>
+          <a 
+            href="https://piccalil.li/premium/build-a-fully-responsive-progressively-enhanced-burger-menu"> In this premium tutorial
+          </a>
+          , we're going to build a burger mneu from the ground up, using progressive enhancement, `ResizeObserver`, `Proxy` state and of course, super solid HTML and CSS that pull from the CUBE CSS principles.
+        </p>
+        <p>
+          This whole page is what you're builing in the tutorial.
+          <a href="https://piccalil.li/premium/build-a-fully-responsive-progressively-enhanced-burger-menu">Let's drive in</a>
+        </p>
+      </article>
+    </main>
+    <script src="js/burger-menu.js" type="module" defer></script>
+  </body>
+</html>
